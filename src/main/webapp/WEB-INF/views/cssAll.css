@@ -1,0 +1,320 @@
+/* убирает отступы для всех элементов */
+*{		
+    margin: 0;
+    padding: 0;
+}
+
+/* главный контейнер */
+#container-main{
+   	background: url(./images/fontjpeg.jpeg);	
+    width: 1300px;
+    margin: 0 auto;
+}
+
+#phone{
+	width: 270px;
+	padding-left: 10px;
+	padding-top: 20px;
+	color: rgb(159, 170, 170);
+	font-size: 24px;
+	font-style: italic;
+}
+#phone p{
+	float: right;	
+}
+
+#in p{
+	float: left;	
+}
+
+#cart{
+	padding-top: 20px;
+	color: rgb(159, 170, 170);
+	font-size: 24px;
+	font-style: italic;
+	float: left;
+}
+
+#clear{
+	clear: both;
+}
+
+.px-2-top{
+	opacity: 0.9;
+	background: white;	
+	font-size: 32px;
+	font: bold;		
+}
+.px-2-top-check{
+	opacity: 0.9;
+	background: white;
+	font-size: 32px;
+	font: bold;	
+	text-decoration: underline;
+}
+
+.nav-link.px-2{
+	opacity: 0.9;
+	background: white;
+	font-size: 24px;	
+}
+
+.nav-link.px-2-check{
+	opacity: 0.9;
+	background: white;
+	font-size: 20px;
+	text-decoration: underline;
+	color:#0d6efd;	
+	font: bold;
+}
+
+.li-col {
+	padding-left: 70px;
+	text-align: left; 
+}
+ 
+.old-price{
+	font-size: 24px;
+	color: rgb(179, 185, 185);	
+	text-decoration:line-through ;
+}
+
+  .registration-cssave form {
+	width:500px;
+	margin: 0 auto;
+	padding:50px 70px;	
+	border-radius:10px;
+	box-shadow:4px 4px 15px rgba(0, 0, 0, 0.2);	
+  }
+  
+   .registration-cssave {
+  		padding-bottom:250px;
+   }
+   
+  .registration-cssave form h3 {
+	font-weight:bold;
+	margin-bottom:30px;	
+  }
+  
+  .registration-cssave .item {
+	border-radius:10px;
+	margin-bottom:25px;
+	padding:10px 20px;	
+  }
+
+  /*Ссылки на главной странице под картинками*/
+  .promo{
+	font-size: 20px;
+	color: rgb(111, 117, 117);
+	text-decoration: underline;		
+}
+
+/* Колонки в таблице в корзине */
+
+.column-cart-1-my { /* цифра*/
+    float:left;
+    width: 5%;	
+    padding: 40px;
+	float: left;
+	font-size: 24px;
+	font: bold;
+	opacity: 0.9;
+	background: white;	  
+}
+
+.column-cart-2-my {  /*фото*/
+    float: left;
+    width: 15%;  
+	float: left;	
+	background: white;
+}
+
+.column-cart-3-my { /*название*/
+    float: left;
+    width: 50%;
+    padding: 40px;
+	font-size: 24px;
+	font: bold;
+	opacity: 0.9;
+	background: white;	
+}
+
+.title-cart-my { /*ссылка названия*/
+    font-size: 20px;
+	font: bold;
+	color:black;
+	text-decoration: underline;
+	opacity: 0.9;
+	background: white;
+}
+
+
+.column-cart-4-my { /*количество*/
+    float: left;
+    width: 15%;
+    padding: 5px;
+	opacity: 0.9;
+	background: white;
+}
+
+.column-cart-5-my {
+    float: right;
+    width: 10%;
+   /* padding: 5px;*/	
+	opacity: 0.9;
+	background: white;
+}
+
+.price-cart-my { /*ссылка названия*/
+    font-size: 24px;
+	font: bold;
+	color:black;
+	text-decoration: underline;
+	padding-left: 50px; 
+}
+
+/* Clear floats after the columns */
+.row-my:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row {
+    padding-bottom: 100 px;
+}
+
+.row-my {
+    display: table;
+    margin:0;
+    padding:0;    
+}
+/*увеличение и уменьшение количества товаров*/
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 10px;
+	font-size: 15px;
+	font: bold;
+	color:black;
+	font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+/*наведение мыши*/
+.count-round-my:hover {  
+    background-color: #0d6efd;
+	color: white;
+}
+
+/*кнопка уменьшения и увеличения*/
+.count-round-my {
+    background-color: #f1f1f1;
+    color: black;	
+	font-size: 17px;
+	font: bold;		
+	border-radius: 50%;	
+	text-decoration: none;
+}
+
+.count-my{
+	color: black;	
+	font-size: 24px;
+	font: bold;
+	font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+	padding-left: 5px;
+	padding-right: 5px;	
+	text-decoration: none;
+}
+
+/*меню ИТОГО*/
+#total_cost{
+	padding: 20px 0;
+	border: solid #c8c8c8;
+	border-width: 1px 0;
+	margin: 30px 0;
+	font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+	font: bold;
+	opacity: 0.9;
+	background: white;
+}
+
+/*столбец в таблице корзины покупок*/
+td{
+	padding: 15px 15px;
+	opacity: 0.9;
+	background: white;
+}
+
+#count-cart{
+	font-size: 20px;
+	font: bold;
+	color:black;	
+	opacity: 0.9;
+	background: white;
+	text-align: center;
+}
+
+/*Технические работы*/
+ #message {
+            max-width: 70%;
+            margin: 100px auto 0 auto;
+            padding: 25px;
+            padding-bottom: 500px;
+            text-align: center;
+            font-size: 20px;   
+            opacity: 0.9;
+			background: white;        
+        }
+
+/*форма оформления заказа*/
+#order-form{	
+	opacity: 0.9;
+	background: white;
+	width: 800px;
+	margin: 20px 350px;
+    padding-bottom: 300px;
+  }
+  
+  /*оформление личного кабинета*/
+.order-cart{	
+	opacity: 0.9;
+	background: white;
+	width: 670px;
+	margin: 0 auto; 
+}
+
+#good-order{
+	border: solid #c8c8c8;
+	margin: 7px;
+}
+
+/*в форме регистрации поля*/
+span.form-group{
+	opacity: 0.9;
+	background: white;
+}
+
+/*страничка с заказами для админа*/
+#allOrders{
+	margin: 0 auto;
+	border: solid #c8c8c8;
+    border-width: 1px 1px;
+	opacity: 0.9;
+	background: white;
+	text-align: center;
+}
+.allOrders-trtd{
+	border: solid #c8c8c8;
+    border-width: 1px 1px;	
+}
+
+/*увеличение и уменьшение количества товаров*/
+.a-admin {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 10px;
+	font-size: 15px;
+	font: bold;
+	color:black;
+	font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
